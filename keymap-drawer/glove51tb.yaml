@@ -36,7 +36,7 @@ layers:
   - Sft+8
   - Sft+9
   - N
-  - {t: M, h: SYM}
+  - {t: M, h: SCROLL}
   - ','
   - .
   - /
@@ -47,7 +47,7 @@ layers:
   - LEFT GUI
   - {t: LANGUAGE 2, h: NUM}
   - {t: SPACE, h: symbol}
-  - {t: LEFT ALT, h: SYM}
+  - {t: LEFT ALT, h: SCROLL}
   - BACKSPACE
   - {t: LANGUAGE 1, h: mv_screen_mac}
   - DOWN ARROW
@@ -400,7 +400,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -453,7 +453,7 @@ layers:
   - \
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
