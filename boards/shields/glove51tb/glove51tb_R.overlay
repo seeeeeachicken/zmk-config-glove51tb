@@ -27,7 +27,7 @@
         input-processors = <&zip_temp_layer 6 100>;            // オートマウスレイヤー（AML）: トラックボール動作時に自動的にレイヤー6を有効化（700ms→100ms）
 
         scroller {
-            layers = <5>;                                      // スクロールレイヤー
+            layers = <7>;                                      // スクロールレイヤー
             input-processors = <
                 &zip_xy_to_scroll_mapper                       // XY移動でスクロール
                 &zip_scroll_transform INPUT_TRANSFORM_Y_INVERT // スクロールのY軸を反転
