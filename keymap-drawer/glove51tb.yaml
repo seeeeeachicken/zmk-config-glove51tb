@@ -135,9 +135,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - '&ind_con'
   - '&ind_bat'
+  - {t: ▽, type: trans}
   - ']'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
