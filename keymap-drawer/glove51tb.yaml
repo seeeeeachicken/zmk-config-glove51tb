@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - BSPC
-  - TAB
+  - {t: TAB, h: FUN}
   - A
   - S
   - D
@@ -169,7 +169,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
