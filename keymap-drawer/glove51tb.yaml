@@ -36,7 +36,7 @@ layers:
   - Sft+8
   - Sft+9
   - N
-  - M
+  - {t: M, h: SCROLL}
   - ','
   - .
   - /
@@ -296,7 +296,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+LEFT ARROW
+  - {t: Gui+LEFT ARROW, type: held}
   - Gui+ENTER
   - Gui+RIGHT ARROW
   - {t: ▽, type: trans}
@@ -307,7 +307,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
