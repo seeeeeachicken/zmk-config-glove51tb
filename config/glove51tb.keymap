@@ -116,10 +116,10 @@
 
         symbol_layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans           &trans         &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &kp RIGHT_BRACE  &kp BACKSLASH  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans           &trans         &trans                          &trans  &trans
+&trans  &trans         &trans            &kp LS(NUMBER_6)  &trans  &kp PLUS                                  &kp INT_YEN  &trans      &trans            &trans  &kp LS(A)      &trans
+&trans  &kp AMPERSAND  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &trans  &trans    &trans           &trans         &kp ASTRK    &kp LS(N7)  &kp LS(NUMBER_2)  &trans  &kp SEMICOLON  &kp COLON
+&trans  &kp PIPE       &trans            &trans            &trans  &trans    &kp RIGHT_BRACE  &kp BACKSLASH  &trans       &trans      &trans            &trans  &trans         &trans
+&trans  &trans         &trans            &trans            &trans  &trans    &trans           &trans         &trans                                             &trans         &trans
             >;
         };
 
