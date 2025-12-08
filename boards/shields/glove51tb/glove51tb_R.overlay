@@ -24,7 +24,7 @@
         status = "okay";
         compatible = "zmk,input-listener";
         device = <&trackball>;
-        input-processors = <&zip_temp_layer 4 700>;            // オートマウスレイヤー（AML）: トラックボール動作時に自動的にレイヤー4を有効化（700ms）
+        input-processors = <&zip_temp_layer 4 300>;            // オートマウスレイヤー（AML）: トラックボール動作時に自動的にレイヤー4を有効化（700ms）
 
         scroller {
             layers = <5>;                                      // スクロールレイヤー
@@ -78,6 +78,6 @@
         swap-xy;      // マウス操作のX軸とY軸を入れ替え
         invert-x;     // マウス操作のX軸を反転
         invert-y;     // マウス操作のY軸を反転
-        cpi = <400>;  // マウス感度
+        cpi = <800>;  // マウス感度
     };
 };
