@@ -146,10 +146,10 @@
 
         mv_screen_windows {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &kp LA(LG(LEFT_ARROW))  &kp LG(TAB)       &kp LG(LA(RIGHT_ARROW))  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                  &trans            &trans                   &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LG(LEFT_ARROW)      &kp LG(UP_ARROW)  &kp LG(RIGHT_ARROW)      &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                                                     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &kp LA(RIGHT_ARROW)  &kp LA(LG(LEFT_ARROW))  &kp LG(TAB)       &kp LG(LA(RIGHT_ARROW))  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LA(LEFT_ARROW)   &trans                  &trans            &trans                   &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans               &kp LG(LEFT_ARROW)      &kp LG(UP_ARROW)  &kp LG(RIGHT_ARROW)      &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                                                                  &trans  &trans
             >;
         };
 
