@@ -488,7 +488,7 @@ layers:
   - F
   - G
   - {t: ▽, type: trans}
-  - {t: DEFAULT, h: toggle}
+  - {t: ▽, type: trans}
   - H
   - J
   - K
