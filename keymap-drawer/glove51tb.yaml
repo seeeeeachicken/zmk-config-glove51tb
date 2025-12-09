@@ -52,6 +52,58 @@ layers:
   - {t: LANGUAGE 1, h: mv_screen_mac}
   - DOWN ARROW
   - UP ARROW
+  WINDOWS_DEFAULT:
+  - ESC
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - BSPC
+  - {t: TAB, h: FUN}
+  - A
+  - S
+  - D
+  - F
+  - G
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - RETURN
+  - LEFT SHIFT
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - Sft+8
+  - {t: Sft+9, h: SYM}
+  - N
+  - {t: M, h: SCROLL}
+  - ','
+  - .
+  - /
+  - Sft+0x87
+  - LEFT CONTROL
+  - LEFT CONTROL
+  - LEFT GUI
+  - LEFT ALT
+  - {t: LANGUAGE 2, h: NUM}
+  - {t: SPACE, h: symbol}
+  - {t: LEFT CONTROL, h: SCROLL}
+  - BACKSPACE
+  - {t: LANGUAGE 1, h: mv_screen_windows}
+  - DOWN ARROW
+  - UP ARROW
   NUM:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -309,7 +361,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   MOUSE:
@@ -468,58 +520,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  WINDOWS_DEFAULT:
-  - ESC
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - BSPC
-  - {t: TAB, h: FUN}
-  - A
-  - S
-  - D
-  - F
-  - G
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - H
-  - J
-  - K
-  - L
-  - ;
-  - RETURN
-  - LEFT SHIFT
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - Sft+8
-  - {t: Sft+9, h: SYM}
-  - N
-  - {t: M, h: SCROLL}
-  - ','
-  - .
-  - /
-  - Sft+0x87
-  - LEFT CONTROL
-  - LEFT CONTROL
-  - LEFT GUI
-  - LEFT ALT
-  - {t: LANGUAGE 2, h: NUM}
-  - {t: SPACE, h: symbol}
-  - {t: LEFT CONTROL, h: SCROLL}
-  - BACKSPACE
-  - {t: LANGUAGE 1, h: mv_screen_windows}
-  - DOWN ARROW
-  - UP ARROW
 combos:
 - p: [35, 36]
-  k: SYM
+  k: SCROLL
