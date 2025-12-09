@@ -11,12 +11,16 @@
 
 // Layer Numbering
 
-#define DEFAULT 0
-#define NUM     1
-#define SYM     2
-#define FUN     3
-#define MOUSE   4
-#define SCROLL  5
+#define DEFAULT     0
+#define WIN_DEFAULT 1  
+#define NUM         2  
+#define SYM         3  
+#define FUN         4  
+#define MV_MAC      5  
+#define MV_WIN      6  
+#define MOUSE       7  
+#define SCROLL      8  
+#define BLUETOOTH   9  
 
 // ZMKで対応していない、日本語キーの設定
 
@@ -96,9 +100,21 @@
             label = "DEFAULT";
             bindings = <
 &kp ESC           &kp Q      &kp W         &kp E         &kp R             &kp T                                       &kp Y             &kp U    &kp I      &kp O    &kp P           &kp BSPC
-&lt 3 TAB         &kp A      &kp S         &kp D         &kp F             &kp G        &trans          &tog 9         &kp H             &kp J    &kp K      &kp L    &kp MINUS       &kp RETURN
-&kp LEFT_SHIFT    &kp Z      &kp X         &kp C         &kp V             &kp B        &kp LS(N9)      &lt 8 LS(N0)   &kp N             &lt 7 M  &kp COMMA  &kp DOT  &kp FSLH        &kp JP_UNDERSCORE
-&kp LEFT_CONTROL  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_GUI  &lt 1 LANGUAGE_2  &lt 2 SPACE  &lt 7 LEFT_ALT  &kp BACKSPACE  &lt 4 LANGUAGE_1                               &kp DOWN_ARROW  &kp UP_ARROW
+&lt 4 TAB         &kp A      &kp S         &kp D         &kp F             &kp G        &trans          &tog 1         &kp H             &kp J    &kp K      &kp L    &kp MINUS       &kp RETURN
+&kp LEFT_SHIFT    &kp Z      &kp X         &kp C         &kp V             &kp B        &kp LS(N9)      &lt 9 LS(N0)   &kp N             &lt 8 M  &kp COMMA  &kp DOT  &kp FSLH        &kp JP_UNDERSCORE
+&kp LEFT_CONTROL  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_GUI  &lt 2 LANGUAGE_2  &lt 3 SPACE  &lt 8 LEFT_ALT  &kp BACKSPACE  &lt 5 LANGUAGE_1                               &kp DOWN_ARROW  &kp UP_ARROW
+            >;
+
+            sensor-bindings = <&mouse_wheel_scroll SCRL_UP SCRL_DOWN>;
+        };
+
+        windos_default_layer {
+            label = "WINDOWS_DEFAULT";
+            bindings = <
+&kp ESC           &kp Q             &kp W         &kp E         &kp R             &kp T                                           &kp Y             &kp U    &kp I      &kp O    &kp P           &kp BSPC
+&lt 4 TAB         &kp A             &kp S         &kp D         &kp F             &kp G        &trans              &trans         &kp H             &kp J    &kp K      &kp L    &kp SEMI        &kp RETURN
+&kp LEFT_SHIFT    &kp Z             &kp X         &kp C         &kp V             &kp B        &kp LS(N8)          &lt 9 LS(N9)   &kp N             &lt 8 M  &kp COMMA  &kp DOT  &kp FSLH        &kp JP_UNDERSCORE
+&kp LEFT_CONTROL  &kp LEFT_CONTROL  &kp LEFT_GUI  &kp LEFT_ALT  &lt 2 LANGUAGE_2  &lt 3 SPACE  &lt 8 LEFT_CONTROL  &kp BACKSPACE  &lt 6 LANGUAGE_1                               &kp DOWN_ARROW  &kp UP_ARROW
             >;
 
             sensor-bindings = <&mouse_wheel_scroll SCRL_UP SCRL_DOWN>;
@@ -181,18 +197,6 @@
 &trans  &trans        &trans        &trans        &ind_con        &ind_bat      &kp RIGHT_BRACE  &kp BACKSLASH  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans        &trans        &trans        &trans          &trans        &trans           &trans         &trans                          &trans  &trans
             >;
-        };
-
-        windos_default_layer {
-            label = "WINDOWS_DEFAULT";
-            bindings = <
-&kp ESC           &kp Q             &kp W         &kp E         &kp R             &kp T                                           &kp Y             &kp U    &kp I      &kp O    &kp P           &kp BSPC
-&lt 3 TAB         &kp A             &kp S         &kp D         &kp F             &kp G        &trans              &trans         &kp H             &kp J    &kp K      &kp L    &kp SEMI        &kp RETURN
-&kp LEFT_SHIFT    &kp Z             &kp X         &kp C         &kp V             &kp B        &kp LS(N8)          &lt 8 LS(N9)   &kp N             &lt 7 M  &kp COMMA  &kp DOT  &kp FSLH        &kp JP_UNDERSCORE
-&kp LEFT_CONTROL  &kp LEFT_CONTROL  &kp LEFT_GUI  &kp LEFT_ALT  &lt 1 LANGUAGE_2  &lt 2 SPACE  &lt 7 LEFT_CONTROL  &kp BACKSPACE  &lt 5 LANGUAGE_1                               &kp DOWN_ARROW  &kp UP_ARROW
-            >;
-
-            sensor-bindings = <&mouse_wheel_scroll SCRL_UP SCRL_DOWN>;
         };
     };
 };
