@@ -20,7 +20,7 @@ layers:
   - F
   - G
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: WINDOWS_DEFAULT, h: toggle}
   - H
   - J
   - K
@@ -34,7 +34,7 @@ layers:
   - V
   - B
   - Sft+8
-  - Sft+9
+  - {t: Sft+9, h: SYM}
   - N
   - {t: M, h: SCROLL}
   - ','
@@ -243,7 +243,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui+Sft+L
   - Gui+LEFT ARROW
   - Gui+ENTER
   - Gui+RIGHT ARROW
@@ -450,10 +450,10 @@ layers:
   - '&ind_con'
   - '&ind_bat'
   - '}'
-  - \
+  - {t: \, type: held}
   - {t: ▽, type: trans}
-  - {type: held}
-  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -488,7 +488,7 @@ layers:
   - F
   - G
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: DEFAULT, h: toggle}
   - H
   - J
   - K
@@ -502,7 +502,7 @@ layers:
   - V
   - B
   - Sft+8
-  - Sft+9
+  - {t: Sft+9, h: SYM}
   - N
   - {t: M, h: SCROLL}
   - ','
