@@ -206,8 +206,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Gui+SPACE
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui+-
+  - Gui++
   FUN:
   - {t: ▽, type: trans}
   - Ctl+Q
