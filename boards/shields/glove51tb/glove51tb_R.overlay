@@ -24,6 +24,7 @@
         status = "okay";
         compatible = "zmk,input-listener";
         device = <&trackball>;
+        layers = <0 9>;  // DEFAULTレイヤー(0)とwindows_default_layer(9)でAMLを有効化
         input-processors = <&zip_temp_layer 6 200>;            // オートマウスレイヤー（AML）: トラックボール動作時に自動的にレイヤー6を有効化（700ms→200ms）
 
         scroller {
