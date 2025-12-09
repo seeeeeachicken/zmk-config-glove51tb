@@ -106,9 +106,9 @@ layers:
   - {t: ▽, type: trans}
   symbol:
   - {t: ▽, type: trans}
+  - Sft+1
+  - '{'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Sft+6
   - {t: ▽, type: trans}
   - +
   - INT YEN
@@ -118,21 +118,21 @@ layers:
   - Sft+A
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&'
+  - Sft+6
   - Sft+3
   - Sft+4
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '*'
+  - '"'
   - Sft+7
   - Sft+2
   - {t: ▽, type: trans}
   - ;
-  - ':'
+  - ''''
   - {t: ▽, type: trans}
-  - '|'
+  - Sft+\
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -144,7 +144,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ':'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -172,7 +172,7 @@ layers:
   - {type: held}
   - Ctl+A
   - Ctl+S
-  - Ctl+D
+  - Ctl+DELETE
   - Ctl+F
   - Ctl+G
   - {t: ▽, type: trans}
