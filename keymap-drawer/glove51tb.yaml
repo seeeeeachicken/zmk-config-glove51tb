@@ -33,8 +33,8 @@ layers:
   - C
   - V
   - B
-  - Sft+8
-  - {t: Sft+9, h: SYM}
+  - Sft+9
+  - {t: Sft+0, h: SYM}
   - N
   - {t: M, h: SCROLL}
   - ','
@@ -85,8 +85,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Sft+}
-  - Sft+|
+  - '{'
+  - '}'
   - {t: ▽, type: trans}
   - '1'
   - '2'
@@ -107,44 +107,44 @@ layers:
   symbol:
   - {t: ▽, type: trans}
   - Sft+1
-  - '{'
+  - Sft+2
+  - Sft+6
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - +
+  - '~'
   - INT YEN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Sft+A
+  - Sft+5
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Sft+6
+  - Sft+7
   - Sft+3
   - Sft+4
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - Sft+8
+  - ''''
   - '"'
-  - Sft+7
-  - Sft+2
   - {t: ▽, type: trans}
   - ;
-  - ''''
-  - {t: ▽, type: trans}
-  - Sft+0x89
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '}'
-  - \
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - ':'
+  - {t: ▽, type: trans}
+  - '|'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '['
+  - ']'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - +
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
