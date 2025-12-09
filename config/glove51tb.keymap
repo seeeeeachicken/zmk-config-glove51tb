@@ -12,15 +12,15 @@
 // Layer Numbering
 
 #define DEFAULT     0
-#define WIN_DEFAULT 1  
-#define NUM         2  
-#define SYM         3  
-#define FUN         4  
-#define MV_MAC      5  
-#define MV_WIN      6  
-#define MOUSE       7  
-#define SCROLL      8  
-#define BLUETOOTH   9  
+#define WIN_DEFAULT 1
+#define NUM         2
+#define SYM         3
+#define FUN         4
+#define MV_MAC      5
+#define MV_WIN      6
+#define MOUSE       7
+#define SCROLL      8
+#define BLUETOOTH   9
 
 // ZMKで対応していない、日本語キーの設定
 
@@ -112,7 +112,7 @@
             label = "WINDOWS_DEFAULT";
             bindings = <
 &kp ESC           &kp Q             &kp W         &kp E         &kp R             &kp T                                           &kp Y             &kp U    &kp I      &kp O    &kp P           &kp BSPC
-&lt 4 TAB         &kp A             &kp S         &kp D         &kp F             &kp G        &trans              &trans         &kp H             &kp J    &kp K      &kp L    &kp SEMI        &kp RETURN
+&lt 4 TAB         &kp A             &kp S         &kp D         &kp F             &kp G        &trans              &trans         &kp H             &kp J    &kp K      &kp L    &kp MINUS       &kp RETURN
 &kp LEFT_SHIFT    &kp Z             &kp X         &kp C         &kp V             &kp B        &kp LS(N8)          &lt 9 LS(N9)   &kp N             &lt 8 M  &kp COMMA  &kp DOT  &kp FSLH        &kp JP_UNDERSCORE
 &kp LEFT_CONTROL  &kp LEFT_CONTROL  &kp LEFT_GUI  &kp LEFT_ALT  &lt 2 LANGUAGE_2  &lt 3 SPACE  &lt 8 LEFT_CONTROL  &kp BACKSPACE  &lt 6 LANGUAGE_1                               &kp DOWN_ARROW  &kp UP_ARROW
             >;
