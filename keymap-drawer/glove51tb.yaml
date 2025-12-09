@@ -215,7 +215,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+]
+  - Gui+\
   - Ctl+LEFT ARROW
   - Ctl+UP ARROW
   - Ctl+RIGHT ARROW
@@ -229,7 +229,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+\
+  - Gui+]
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -510,12 +510,12 @@ layers:
   - /
   - Sft+0x87
   - LEFT CONTROL
-  - LEFT ALT
+  - LEFT CONTROL
   - LEFT GUI
-  - LCTRL
+  - LEFT ALT
   - {t: LANGUAGE 2, h: NUM}
   - {t: SPACE, h: symbol}
-  - {t: LEFT ALT, h: SCROLL}
+  - {t: LEFT CONTROL, h: SCROLL}
   - BACKSPACE
   - {t: LANGUAGE 1, h: mv_screen_windows}
   - DOWN ARROW
