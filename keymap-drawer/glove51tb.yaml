@@ -77,7 +77,7 @@ layers:
   - J
   - K
   - L
-  - ;
+  - '-'
   - RETURN
   - LEFT SHIFT
   - Z
