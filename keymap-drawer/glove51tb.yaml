@@ -268,9 +268,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Alt+RIGHT ARROW
-  - Alt+Gui+LEFT ARROW
+  - Ctl+Gui+LEFT ARROW
   - Gui+TAB
-  - Gui+Alt+RIGHT ARROW
+  - Alt+Ctl+RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
