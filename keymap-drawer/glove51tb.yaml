@@ -468,6 +468,58 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  WINDOWS_DEFAULT:
+  - ESC
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - BSPC
+  - {t: TAB, h: FUN}
+  - A
+  - S
+  - D
+  - F
+  - G
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - RETURN
+  - LEFT SHIFT
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - Sft+8
+  - Sft+9
+  - N
+  - {t: M, h: SCROLL}
+  - ','
+  - .
+  - /
+  - '&LS(0x87)'
+  - LEFT CONTROL
+  - LEFT ALT
+  - LEFT GUI
+  - LCTRL
+  - {t: LANGUAGE 2, h: NUM}
+  - {t: SPACE, h: symbol}
+  - {t: LEFT ALT, h: SCROLL}
+  - BACKSPACE
+  - {t: LANGUAGE 1, h: mv_screen_windows}
+  - DOWN ARROW
+  - UP ARROW
 combos:
 - p: [35, 36]
   k: SYM
