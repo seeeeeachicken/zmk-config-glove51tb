@@ -319,10 +319,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Alt+RIGHT ARROW
-  - Ctl+Gui+LEFT ARROW
+  - Ctl+RIGHT ARROW
+  - Gui+Alt+LEFT ARROW
   - Gui+TAB
-  - Alt+Ctl+RIGHT ARROW
+  - Alt+Gui+RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -333,7 +333,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Alt+LEFT ARROW
+  - Ctl+LEFT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
