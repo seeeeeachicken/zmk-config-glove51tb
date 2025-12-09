@@ -111,12 +111,12 @@ layers:
   - Sft+6
   - {t: ▽, type: trans}
   - '~'
-  - INT YEN
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Sft+5
-  - {t: ▽, type: trans}
+  - \
   - {t: ▽, type: trans}
   - Sft+7
   - Sft+3
