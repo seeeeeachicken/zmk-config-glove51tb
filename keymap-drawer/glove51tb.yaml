@@ -40,7 +40,7 @@ layers:
   - ','
   - .
   - /
-  - '-'
+  - '&LS(0x87)'
   - LEFT CONTROL
   - LCTRL
   - LEFT ALT
@@ -132,7 +132,7 @@ layers:
   - ;
   - ''''
   - {t: ▽, type: trans}
-  - Sft+\
+  - Sft+0x89
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
