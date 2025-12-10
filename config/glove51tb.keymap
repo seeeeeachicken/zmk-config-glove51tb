@@ -153,7 +153,7 @@
 
         mv_screen_mac {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                  &kp LG(RIGHT_BRACKET)  &kp LC(LEFT_ARROW)  &kp LC(UP_ARROW)  &kp LC(RIGHT_ARROW)  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &kp LG(RIGHT_BRACKET)  &kp LC(LEFT_ARROW)  &kp LC(UP_ARROW)  &kp LC(RIGHT_ARROW)  &trans  &kp LS(LG(TAB))
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LG(LEFT_BRACKET)   &trans              &trans            &trans               &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LG(LS(L))          &kp LG(LEFT_ARROW)  &kp LG(ENTER)     &kp LG(RIGHT_ARROW)  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                                                            &trans  &trans
@@ -162,7 +162,7 @@
 
         mv_screen_windows {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                  &kp LC(RIGHT_ARROW)  &kp LG(LA(LEFT_ARROW))  &kp LG(TAB)       &kp LA(LG(RIGHT_ARROW))  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &kp LC(RIGHT_ARROW)  &kp LG(LA(LEFT_ARROW))  &kp LG(TAB)       &kp LA(LG(RIGHT_ARROW))  &trans  &kp LG(L)
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LC(LEFT_ARROW)   &trans                  &trans            &trans                   &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans               &kp LG(LEFT_ARROW)      &kp LG(UP_ARROW)  &kp LG(RIGHT_ARROW)      &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                                                                  &trans  &trans
