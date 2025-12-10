@@ -85,14 +85,14 @@ layers:
   - C
   - V
   - B
-  - Sft+8
-  - {t: Sft+9, h: SYM}
+  - Sft+9
+  - {t: Sft+0, h: SYM}
   - N
   - {t: M, h: SCROLL}
   - ','
   - .
   - /
-  - Sft+0x87
+  - '='
   - LEFT CONTROL
   - LEFT CONTROL
   - LEFT GUI
@@ -131,7 +131,7 @@ layers:
   - '6'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT SHIFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -145,10 +145,10 @@ layers:
   - '3'
   - .
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT CONTROL
+  - LEFT CONTROL
+  - LEFT GUI
+  - LEFT ALT
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
