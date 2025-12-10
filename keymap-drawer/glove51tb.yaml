@@ -224,7 +224,7 @@ layers:
   - {type: held}
   - Ctl+A
   - Ctl+S
-  - Ctl+DELETE
+  - DELETE
   - Ctl+F
   - Ctl+G
   - {t: ▽, type: trans}
