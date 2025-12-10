@@ -217,7 +217,7 @@ layers:
   - Ctl+T
   - {t: ▽, type: trans}
   - UP ARROW
-  - {t: ▽, type: trans}
+  - Ctl+I
   - {t: ▽, type: trans}
   - F5
   - F6
