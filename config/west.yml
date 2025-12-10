@@ -11,7 +11,7 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: 8ed9367f5928a3c3e5f2e201f6cee66e2883c98e  # 2024年9月のZephyr 3.5対応コミット
+      revision: v0.3-branch
       import: app/west.yml  # 通常のimport
     - name: zmk-pmw3610-driver
       remote: badjeff
