@@ -75,8 +75,7 @@
         zephyr,axis-x = <INPUT_REL_X>;
         zephyr,axis-y = <INPUT_REL_Y>;
         swap-axes;    // マウス操作のX軸とY軸を入れ替え
-        invert-x;     // マウス操作のX軸を反転
-        invert-y;     // マウス操作のY軸を反転
+        invert-axes = <1 1>; 
         cpi = <800>;  // マウス感度
     };
 };
