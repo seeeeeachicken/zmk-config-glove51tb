@@ -20,7 +20,7 @@ layers:
   - F
   - G
   - {t: ▽, type: trans}
-  - {t: NUM, h: toggle}
+  - {t: WINDOWS_DEFAULT, h: toggle}
   - H
   - J
   - K
@@ -45,7 +45,7 @@ layers:
   - LCTRL
   - LEFT ALT
   - LEFT GUI
-  - {t: LANGUAGE 2, h: symbol}
+  - {t: LANGUAGE 2, h: NUM}
   - {t: SPACE, h: symbol}
   - {t: LEFT ALT, h: SCROLL}
   - BACKSPACE
@@ -97,7 +97,7 @@ layers:
   - LEFT CONTROL
   - LEFT GUI
   - LEFT ALT
-  - {t: LANGUAGE 2, h: symbol}
+  - {t: LANGUAGE 2, h: NUM}
   - {t: SPACE, h: symbol}
   - {t: LEFT CONTROL, h: SCROLL}
   - BACKSPACE
@@ -149,7 +149,7 @@ layers:
   - LEFT CONTROL
   - LEFT GUI
   - LEFT ALT
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -201,8 +201,8 @@ layers:
   - LEFT CONTROL
   - LEFT GUI
   - LEFT ALT
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Gui+SPACE
