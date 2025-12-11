@@ -272,7 +272,7 @@ layers:
   - Ctl+UP ARROW
   - Ctl+RIGHT ARROW
   - {t: ▽, type: trans}
-  - Sft+Gui+TAB
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -297,7 +297,7 @@ layers:
   - {t: ▽, type: trans}
   - Gui+Sft+L
   - Gui+LEFT ARROW
-  - Gui+ENTER
+  - Gui+Sft+ENTER
   - Gui+RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -324,7 +324,7 @@ layers:
   - Gui+TAB
   - Alt+Gui+RIGHT ARROW
   - {t: ▽, type: trans}
-  - Gui+L
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
