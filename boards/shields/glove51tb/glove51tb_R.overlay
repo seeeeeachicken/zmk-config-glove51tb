@@ -78,6 +78,6 @@
         swap-xy;
         invert-x;
         invert-y;
-        cpi = <1600>;
+        cpi = <1200>;
     };
 };
