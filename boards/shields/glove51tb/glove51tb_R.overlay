@@ -31,7 +31,7 @@
             input-processors = <
                 &zip_xy_to_scroll_mapper                       // XY移動でスクロール
                 &zip_scroll_transform INPUT_TRANSFORM_Y_INVERT // スクロールのY軸を反転
-                &zip_scroll_scaler 1 20                        // スクロール感度調整
+                &zip_scroll_scaler 1 32                        // スクロール感度調整
             >;
         };
     };
