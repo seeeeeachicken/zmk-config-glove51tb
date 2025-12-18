@@ -429,7 +429,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT ALT
   - {t: ▽, type: trans}
   - Gui+Sft+Ctl+4
   - {t: ▽, type: trans}
